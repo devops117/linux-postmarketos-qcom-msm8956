@@ -51,4 +51,8 @@ package() {
 
 	install -D "$builddir"/include/config/kernel.release \
 		"$pkgdir/usr/share/kernel/$_flavor/kernel.release"
-
+}
+sha512sums="
+c4c69e58b4954b7f7957bc8bc4f638dceb9130aebd340ccc7b9a25a8c0094cc94dbdb102268c144c05d73ed684c55dd0e008fec10a48422f870134c388c60b8e  linux-postmarketos-qcom-msm8956-256be394d37897d63911c95bd902548cd97089ce.tar.gz
+80795f0faf49f3448c22b32516ff1469b91739f40c0ec85c403c90ed17e58e45838a610945ea914ded1216d89f1b0e74c097df06c2597608d61799cda708a2f3  config-postmarketos-qcom-msm8956.aarch64
+"
